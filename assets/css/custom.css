@@ -24,3 +24,8 @@ section{
 	margin:0px 0px 0px 0px;
 	padding:0px 0px 0px 0px;
 }
+
+.features portfolio{
+	width: calc(25% - 2em);
+	margin-right: 1px;
+}
