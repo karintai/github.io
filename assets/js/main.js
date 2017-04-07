@@ -4,6 +4,21 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+$(document).ready(function(){
+	$('.slider').slick({
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		prevArrow: false,
+		nextArrow: false
+	});
+});
+
+
+
 (function($) {
 
 	skel.breakpoints({
